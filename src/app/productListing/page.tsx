@@ -3,7 +3,6 @@ import Banner from "../components/banner";
 import D_Nav from "../components/dNav";
 import Card from "../components/cards";
 import Features from "../components/features";
-import { Sign } from "crypto";
 import Signup from "../components/signup";
 import Footer2 from "../components/footer2";
 
