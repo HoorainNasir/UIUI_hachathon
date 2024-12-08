@@ -1,101 +1,64 @@
 import Image from "next/image";
+import Header from "./components/header";
+import Features from "./components/features";
+import Card from "./components/cards";
+import Signup from "./components/signup";
+import Footer1 from "./components/footer1";
 
-export default function Home() {
+export default function Main() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+    <Header/>
+      <div className="bg-[#2A254B] w-[1190px] h-[500px] my-[60px] ml-[80px] flex">
+        <div className="flex-1 text-white text-[32px] leading-[44.8px] font-sans font-light">
+          <h1 className=" mt-[60px] ml-[60px]">
+            The furniture brand for the <br/> future, with timeless designs
+          </h1>
+          <button className="ml-[60px] mt-[40px] bg-[#565369] text-xs w-[130px] h-[50px]">
+            View Collection
+          </button>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <h1 className="mx-[60px] text-lg leading-[27px] mt-[130px]">
+          A new era in eco friendly furniture with Avelon, the French luxury retail brand
+with nice fonts, tasteful colors and a beautiful way to display things digitally 
+using modern web technologies.
+          </h1>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        
+        <div>
+          <Image src={"/chair.png"} alt="" width={445} height={540}/>
+        </div>
+      </div>
+
+      <Features/>
+      <h1 className="font-sans font-normal text-black text-[32px] leading-[39.36px] ml-[70px]">
+      New ceramics
+      </h1>
+      <Card/>
+      <Signup/>
+
+      <div className="flex w-full">
+        <div className="font-sans text-black flex-1 px-[84px] pt-[72px]">
+          <h1 className="font-normal text-2xl">
+          From a studio in London to a global brand with
+          over 400 outlets
+          </h1>
+          <p className="font-light text-[16px] leading-[21.6px] mt-[20px]">
+          When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.
+          <br/>
+          <br/> Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.
+          </p>
+
+          <button className="font-light bg-[#f9f9f9] w-[150px] h-[56px] px-[32px] py-[16px] mt-[100px] text-sm">
+            Get in touch
+          </button>
+        </div>
+
+        <div className="flex-1">
+          <Image src={"/git.png"} alt="" width={720} height={603}/>
+        </div>
+      </div>
+      <Footer1/>
+    </>
   );
 }
