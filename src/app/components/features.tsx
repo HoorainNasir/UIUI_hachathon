@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Features(){
     return(
-        <div className="font-sans font-light text-black h-[305px]">
-            <h1 className="text-2xl font-normal mt-[60px] ml-[529px]">
+        <div className="font-sans font-light text-black md:lg:h-[305px] md:lg:ml-0 ml-[20px] md:lg:mb-0 mb-[20px]">
+            <h1 className="text-2xl md:lg:font-normal font-light mt-[60px] md:lg:pr-0 pr-[50px] md:lg:ml-[529px]">
             What makes our brand different
             </h1>
             
-            <div className="flex gap-[35px] mx-[80px] mt-[60px]">
-                <div className="w-[270px] h-[140px] bg-[#f9f9f9] p-[12px]">
+            <div className="grid md:lg:grid-cols-4 grid-cols-1 gap-[35px] md:lg:mx-[80px] md:lg:mt-[60px] mt-[30px]">
+                <div className="w-[270px] h-[140px] md:lg:bg-[#f9f9f9] p-[12px]">
                     <Image src={"/Delivery.png"} alt="" width={24} height={24}/>
                     
                     <h1 className="font- text-[20px] leading-[28px] my-[10px]">
@@ -20,7 +20,7 @@ export default function Features(){
                     </p>
                 </div>
 
-                <div className="w-[270px] h-[140px] bg-[#f9f9f9] p-[12px]">
+                <div className="w-[270px] h-[140px] md:lg:bg-[#f9f9f9] p-[12px]">
                     <Image src={"/Checkmark.png"} alt="" width={24} height={24}/>
                     
                     <h1 className="font- text-[20px] leading-[28px] my-[10px]">
@@ -32,7 +32,7 @@ real passion and craftmanship
                     </p>
                 </div>
 
-                <div className="w-[270px] h-[140px] bg-[#f9f9f9] p-[12px]">
+                <div className="w-[270px] h-[140px] md:lg:bg-[#f9f9f9] p-[12px]">
                     <Image src={"/Purchase.png"} alt="" width={24} height={24}/>
                     
                     <h1 className="font- text-[20px] leading-[28px] my-[10px]">
@@ -43,7 +43,7 @@ real passion and craftmanship
                     </p>
                 </div>
 
-                <div className="w-[270px] h-[140px] bg-[#f9f9f9] p-[12px]">
+                <div className="w-[270px] h-[140px] md:lg:bg-[#f9f9f9] p-[12px]">
                     <Image src={"/Sprout.png"} alt="" width={24} height={24}/>
                     
                     <h1 className="font- text-[20px] leading-[28px] my-[10px]">

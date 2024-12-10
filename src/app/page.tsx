@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import Header from "./components/header";
 import Features from "./components/features";
@@ -8,57 +10,65 @@ import Footer1 from "./components/footer1";
 export default function Main() {
   return (
     <>
-    <Header/>
-      <div className="bg-[#2A254B] w-[1190px] h-[500px] my-[60px] ml-[80px] flex">
-        <div className="flex-1 text-white text-[32px] leading-[44.8px] font-sans font-light">
-          <h1 className=" mt-[60px] ml-[60px]">
-            The furniture brand for the <br/> future, with timeless designs
+      <Header />
+      <div className="w-[1190px] h-[500px] md:lg:my-[60px] md:lg:ml-[80px] sm:ml-0 sm:my-0 flex">
+        <div className="flex-1 bg-[#2A254B] sm:w-full text-white text-[32px] leading-[44.8px] font-sans font-light">
+          <h1 className="md:ld:mt-[60px] mt-[30px] md:lg:ml-[60px] ml-[20px] md:lg:mr-[250px] mr-[880px]">
+            The furniture brand for the future, with timeless designs
           </h1>
-          <button className="ml-[60px] mt-[40px] bg-[#565369] text-xs w-[130px] h-[50px]">
+          <button className="hidden sm:block ml-[60px] mt-[40px] bg-[#565369] text-xs w-[130px] h-[50px]">
             View Collection
           </button>
 
-          <h1 className="mx-[60px] text-lg leading-[27px] mt-[130px]">
-          A new era in eco friendly furniture with Avelon, the French luxury retail brand
-with nice fonts, tasteful colors and a beautiful way to display things digitally 
-using modern web technologies.
+          <h1 className="md:lg:mx-[60px] text-lg leading-[27px] md:lg:mt-[130px] mt-[60px] ml-[20px] md:lg:mr-0 mr-[820px]">
+            A new era in eco friendly furniture with Avelon, the French luxury retail brand
+            with nice fonts, tasteful colors and a beautiful way to display things digitally
+            using modern web technologies.
           </h1>
+
+          <button className="block sm:hidden mx-[20px] mt-[60px] bg-[#565369] text-xs w-[60%] h-[56px]">
+  View Collection
+</button>
         </div>
-        
-        <div>
-          <Image src={"/chair.png"} alt="" width={445} height={540}/>
+
+        <div className="hidden sm:block">
+          <Image src={"/chair.png"} alt="" width={445} height={540} />
         </div>
       </div>
 
-      <Features/>
-      <h1 className="font-sans font-normal text-black text-[32px] leading-[39.36px] ml-[70px]">
-      New ceramics
+      <Features />
+      <h1 className="font-sans md:lg:font-normal font-light text-black text-[32px] leading-[39.36px] md:lg:ml-[70px] ml-[20px]">
+        New ceramics
       </h1>
-      <Card/>
-      <Signup/>
+      <Card />
+      <Signup />
 
-      <div className="flex w-full">
-        <div className="font-sans text-black flex-1 px-[84px] pt-[72px]">
-          <h1 className="font-normal text-2xl">
-          From a studio in London to a global brand with
-          over 400 outlets
+      <div className="grid md:lg:grid-cols-2 grid-cols-1 w-full">
+        <div className="font-sans text-black flex-1 md:lg:px-[84px] px-[20px] pt-[20px] md:lg:pt-[72px]">
+          <h1 className="md:lg:font-normal font-light text-xl md:lg:text-2xl">
+            From a studio in London to a global brand with
+            over 400 outlets
           </h1>
-          <p className="font-light text-[16px] leading-[21.6px] mt-[20px]">
-          When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.
-          <br/>
-          <br/> Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.
+          <p className="font-light text-[14px] md:lg:text-[16px] md:lg:leading-[21.6px] mt-[20px]">
+            When we started Avion, the idea was simple. Make high quality furniture affordable and available for the mass market.
+            <br />
+            <br /> Handmade, and lovingly crafted furniture and homeware is what we live, breathe and design so our Chelsea boutique become the hotbed for the London interior design community.
           </p>
 
-          <button className="font-light bg-[#f9f9f9] w-[150px] h-[56px] px-[32px] py-[16px] mt-[100px] text-sm">
+          <button className="font-light bg-[#f9f9f9] md:lg:w-[150px] w-[85%] h-[56px] px-[32px] py-[16px] mt-[60px] md:lg:mt-[100px] text-sm">
             Get in touch
           </button>
         </div>
 
-        <div className="flex-1">
-          <Image src={"/git.png"} alt="" width={720} height={603}/>
+        <div className="flex-1 block sm:hidden mt-[30px]">
+          <Image src={"/git.png"} alt="" width={720} height={603} />
+        </div>
+
+        <div className="flex-1 hidden sm:block">
+          <Image src={"/git.png"} alt="" width={720} height={603} />
         </div>
       </div>
-      <Footer1/>
+      <Footer1 />
     </>
   );
 }

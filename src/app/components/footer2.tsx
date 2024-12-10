@@ -6,9 +6,9 @@ export default function Footer2() {
     return (
         <footer className=" bg-[#2A254B]  pt-12 pb-3 px-[10px] font-sans tracking-wide relative">
             <div className="max-w-screen-xl mx-auto">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2 font-normal">
+                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-7 md:lg:gap-2 md:lg:font-normal font-light">
                     <div>
-                        <h2 className="text-white text-[36px] leading-[50.4px] uppercase font-normal mb-4">Avion</h2>
+                        <h2 className="text-white text-[36px] leading-[50.4px] md:lg:uppercase md:lg:font-normal font-light mb-4">Avion</h2>
                         <ul className="space-y-2 text-white">
                             <li>
                                 <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">21 New York Street</Link>
@@ -26,9 +26,9 @@ export default function Footer2() {
                     </div>
 
                     <div>
-                    <h2 className="text-white text-[16px] leading-[19.68px] uppercase font-normal mb-4">Social Links</h2>
+                    <h2 className="text-white text-[16px] leading-[19.68px] md:lg:uppercase md:lg:font-normal font-light mb-4">Social Links</h2>
                         <div className="flex space-x-5">
-                            <ul className="flex space-x-2">
+                            <ul className="grid md:lg:grid-cols-6 grid-cols-3 space-x-2">
 
                                 <li>
                                     <a href="javascript:void(0)">
@@ -75,9 +75,9 @@ export default function Footer2() {
                         </div>
                     </div>
 
-                    <div>
-                        <h2 className="text-white text-[16px] leading-[19.68px] uppercase font-normal mb-4">Menu</h2>
-                        <ul className="space-y-3 text-white">
+                    <div className="hidden sm:block">
+                        <h2 className="text-white text-[16px] leading-[19.68px] md:lg:uppercase md:lg:font-normal font-light mb-4">Menu</h2>
+                        <ul className="md:lg:space-y-3 space-y-1 text-white">
                             <li>
                                 <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">New arrivals</Link>
                             </li>
@@ -96,9 +96,9 @@ export default function Footer2() {
                         </ul>
                     </div>
 
-                    <div>
-                        <h2 className="text-white text-[16px] leading-[19.68px] uppercase font-normal mb-4">Categories</h2>
-                        <ul className="space-y-3">
+                    <div className="hidden sm:block">
+                        <h2 className="text-white text-[16px] leading-[19.68px] md:lg:uppercase md:lg:font-normal font-light mb-4">Categories</h2>
+                        <ul className="md:lg:space-y-3 space-y-1">
                             <li>
                                 <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Crockery</Link>
                             </li>
@@ -119,8 +119,8 @@ export default function Footer2() {
                     </div>
 
                     <div>
-                        <h2 className="text-white text-[16px] leading-[19.68px] uppercase font-normal mb-4">Our company</h2>
-                        <ul className="space-y-3">
+                        <h2 className="text-white text-[16px] leading-[19.68px] md:lg:uppercase md:lg:font-normal font-light mb-4">Our company</h2>
+                        <ul className="md:lg:space-y-3 space-y-1">
                             <li>
                                 <Link href={"./about"} className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">About us</Link>
                             </li>
@@ -135,6 +135,27 @@ export default function Footer2() {
                             </li>
                             <li>
                                 <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Returns policy</Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="block sm:hidden">
+                        <h2 className="text-white text-[16px] leading-[19.68px] md:lg:uppercase md:lg:font-normal font-light mb-4">Menu</h2>
+                        <ul className="md:lg:space-y-3 space-y-1 text-white">
+                            <li>
+                                <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">New arrivals</Link>
+                            </li>
+                            <li>
+                                <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Best sellers</Link>
+                            </li>
+                            <li>
+                                <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Recently viewed</Link>
+                            </li>
+                            <li>
+                                <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Popular this week</Link>
+                            </li>
+                            <li>
+                                <Link href="/products" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">All products</Link>
                             </li>
                         </ul>
                     </div>

@@ -11,20 +11,20 @@ export default function ProductChairs() {
         <div>
             <Banner />
             <D_Nav />
-            <div className="flex">
-                <div>
+            <div className="grid md:lg:grid-cols-2 grid-cols-1">
+                <div className="">
                     <Image src={"/leftimg.png"} alt="" width={621} height={759} />
                 </div>
-                <div className="px-[80px] pt-[60px] font-sans font-light text-black">
-                    <h1 className="text-4xl">
+                <div className="md:lg:px-[80px] px-[20px] py-[30px] md:lg:pt-[60px] font-sans font-light text-black">
+                    <h1 className="md:lg:text-4xl text-2xl">
                         The Dandy Chair
                     </h1>
                     <p className="text-2xl my-[10px]">
                         £250</p>
 
-                    <p className="text-[14px] leading-[17.22px]">
-                        Decoration <br /><br />
-                        A timeless design, with premium materials features as one of our most<br /> popular and iconic pieces. The dandy chair is perfect for any stylish<br /> living space with beech legs and lambskin leather upholstery.
+                    <div className="text-[14px] leading-[17.22px] md:lg:pr-0 pr-[30px]">
+                        Product description <br /><br />
+                        A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.
                         <br />
                         <br />
                         <ul>
@@ -40,7 +40,7 @@ export default function ProductChairs() {
                         <span className="text-sm">
                             Dimensions
                         </span>
-                        <p className="flex mt-[10px] gap-10">
+                        <div className="flex mt-[10px] gap-10">
                             <ul>
                                 <li>Height</li>
                                 <li>
@@ -59,15 +59,15 @@ export default function ProductChairs() {
                                     50cm
                                 </li>
                             </ul>
-                        </p>
-                    </p>
+                        </div>
+                    </div>
                     <div className="flex gap-5 mt-[60px]">
                         <h1 >
                             Amount
                         </h1>
                         <div>
                             <button type="button"
-                                className="flex items-center px-2.5 py-1.5 border border-gray-300 text-gray-800 text-xs outline-none bg-transparent rounded-md">
+                                className="flex items-center px-2.5 py-1.5 border border-gray-300 text-gray-800 text-xs outline-none bg-transparent">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-2.5 fill-current" viewBox="0 0 124 124">
                                     <path d="M112 50H12C5.4 50 0 55.4 0 62s5.4 12 12 12h100c6.6 0 12-5.4 12-12s-5.4-12-12-12z" data-original="#000000"></path>
                                 </svg>
@@ -78,7 +78,7 @@ export default function ProductChairs() {
                                 </svg>
                             </button>
                         </div>
-                        <button className="bg-[#2a254b] w-[100px] h-[46px] text-sm text-white px-[12px] py-[10px] ml-[350px]">
+                        <button className="bg-[#2a254b] w-[100px] md:lg:h-[46px] h-[35px] md:lg:text-sm text-xs text-white px-[12px] py-[10px] md:lg:ml-[350px] ml-[30px]">
                             Add to cart
                         </button>
                     </div>
@@ -87,7 +87,7 @@ export default function ProductChairs() {
                 
                 
             </div>
-            <h1 className="mt-[60px] font-sans font-normal text-black text-[32px] leading-[39.36px] ml-[70px]">
+            <h1 className="md:lg:mt-[60px] mt-[30px] font-sans md:lg:font-normal font-light text-black text-[32px] leading-[39.36px] ml-[20px] md:lg:ml-[70px]">
                         You might also like
                     </h1>
                     <Card />
