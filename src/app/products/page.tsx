@@ -1,7 +1,6 @@
 "use client"
 import Link from "next/link";
 import Image from "next/image";
-import Header from "../components/header";
 import Card from "../components/cards";
 import Card2 from "../components/card2";
 import Footer1 from "../components/footer1";
