@@ -112,7 +112,7 @@ export default function Footer2() {
                                 <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Plant pots</Link>
                             </li>
                             <li>
-                                <Link href="" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Chairs</Link>
+                                <Link href="productListing" className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">Chairs</Link>
                             </li>
 
                         </ul>
@@ -120,7 +120,7 @@ export default function Footer2() {
 
                     <div>
                         <h2 className="text-white text-[16px] leading-[19.68px] md:lg:uppercase md:lg:font-normal font-light mb-4">Our company</h2>
-                        <ul className="md:lg:space-y-3 space-y-1">
+                        <ul className="md:lg:space-y-3 text-white space-y-1">
                             <li>
                                 <Link href={"./about"} className=" hover:text-[gray] text-[14px] leading-[18.9px] transition-all">About us</Link>
                             </li>
@@ -165,7 +165,7 @@ export default function Footer2() {
 
                 <div className="flex sm:justify-between flex-wrap gap-6">
 
-                    <p className='font-light text-sm'>© Copyright 2022 Avion LTD
+                    <p className='font-light text-white text-sm'>© Copyright 2022 Avion LTD
                     </p>
 
                 </div>

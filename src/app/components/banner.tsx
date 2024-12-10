@@ -1,7 +1,7 @@
 export default function Banner(){
     return(
         <div className="flex items-center max-md:flex-col gap-6 bg-[#2A254B] text-white px-0 md:lg:px-6 md:lg:h-[40px] h-[54px] py-3.5 text-[14px] leading-[18.9px] font-sans">
-      <p className="md:lg:font-normal font-light md:lg:ml-[450px] flex-1 max-md:text-center md:lg:text-center text-left">Free delivery on all orders over £50 with code easter checkout</p>
+      <p className="md:lg:font-normal font-light md:lg:ml-[450px] flex-1 max-md:text-center text-left">Free delivery on all orders over £50 with code easter checkout</p>
 
       <div>
         <svg xmlns="http://www.w3.org/2000/svg"

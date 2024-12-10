@@ -11,16 +11,16 @@ export default function Main() {
   return (
     <>
       <Header />
-      <div className="w-[1190px] h-[500px] md:lg:my-[60px] md:lg:ml-[80px] sm:ml-0 sm:my-0 flex">
-        <div className="flex-1 bg-[#2A254B] sm:w-full text-white text-[32px] leading-[44.8px] font-sans font-light">
-          <h1 className="md:ld:mt-[60px] mt-[30px] md:lg:ml-[60px] ml-[20px] md:lg:mr-[250px] mr-[880px]">
+      <div className=" md:lg:w-[1190px] w-0 h-[500px] md:lg:my-[60px] md:lg:ml-[80px] ml-0 my-0 grid  md:lg:grid-cols-2 grid-cols-1">
+        <div className="flex-1 bg-[#2A254B]  md:lg:w-full w-[390px] text-white text-[32px] leading-[44.8px] font-sans font-light">
+          <h1 className="md:ld:mt-[60px] mt-[30px] md:lg:ml-[60px] ml-[20px] md:lg:mr-[250px] mr-[70px]">
             The furniture brand for the future, with timeless designs
           </h1>
           <button className="hidden sm:block ml-[60px] mt-[40px] bg-[#565369] text-xs w-[130px] h-[50px]">
             View Collection
           </button>
 
-          <h1 className="md:lg:mx-[60px] text-lg leading-[27px] md:lg:mt-[130px] mt-[60px] ml-[20px] md:lg:mr-0 mr-[820px]">
+          <h1 className="md:lg:mx-[60px] text-lg leading-[27px] md:lg:mt-[130px] mt-[60px] ml-[20px] md:lg:mr-0 mr-[0px]">
             A new era in eco friendly furniture with Avelon, the French luxury retail brand
             with nice fonts, tasteful colors and a beautiful way to display things digitally
             using modern web technologies.

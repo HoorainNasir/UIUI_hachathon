@@ -45,7 +45,7 @@ export default function Card() {
                         <Image src={"/img3.png"} alt="" width={280} height={375} />
                     </div>
                     <h1 className="my-[10px]">
-                        The Lucy Lamp
+                       The Silky Vase
                     </h1>
                     <p>
                         £399

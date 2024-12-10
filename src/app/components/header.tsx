@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-white w-full h-[120px] sm:w-[100v] sm:h-[69px] pt-[20px] px-[25px]" >
+    <header className="bg-white  w-full h-[120px] pt-[20px] px-[25px]" >
       <section className="flex content-center border-b-[1px] border-b-gray-300">
       <div className="cursor-pointer flex-1 pt-[5px]">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" width='18px'
@@ -34,7 +34,7 @@ export default function Header() {
         </div>
       </section>
       <section >
-        <ul className="font-normal text-base flex text-[#726E8D] gap-[25px] pt-[20px] justify-center">
+        <ul className="font-normal text-[10px] md:lg:text-base flex text-[#726E8D] gap-1 md:lg:gap-[25px] pt-[20px] justify-center">
         <Link href={""}>
                         <li>Plant Pots</li></Link>
                     <Link href="">

@@ -12,17 +12,17 @@ export default function ProductChairs() {
             <Banner />
             <D_Nav />
             <div className="grid md:lg:grid-cols-2 grid-cols-1">
-                <div className="">
+                <div>
                     <Image src={"/leftimg.png"} alt="" width={621} height={759} />
                 </div>
-                <div className="md:lg:px-[80px] px-[20px] py-[30px] md:lg:pt-[60px] font-sans font-light text-black">
+                <div className="md:lg:px-[0px] px-[20px] py-[30px] md:lg:pt-[60px] font-sans font-light text-black">
                     <h1 className="md:lg:text-4xl text-2xl">
                         The Dandy Chair
                     </h1>
                     <p className="text-2xl my-[10px]">
                         £250</p>
 
-                    <div className="text-[14px] leading-[17.22px] md:lg:pr-0 pr-[30px]">
+                    <div className="text-[14px] leading-[17.22px] md:lg:pr-5 pr-[30px]">
                         Product description <br /><br />
                         A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.
                         <br />

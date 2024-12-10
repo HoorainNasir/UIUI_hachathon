@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Features(){
     return(
-        <div className="font-sans font-light text-black md:lg:h-[305px] md:lg:ml-0 ml-[20px] md:lg:mb-0 mb-[20px]">
+        <div className="font-sans font-light text-black md:lg:h-[305px] md:lg:ml-0 ml-[20px] md:lg:mb-0 mb-[40px]">
             <h1 className="text-2xl md:lg:font-normal font-light mt-[60px] md:lg:pr-0 pr-[50px] md:lg:ml-[529px]">
             What makes our brand different
             </h1>

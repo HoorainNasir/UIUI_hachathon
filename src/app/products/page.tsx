@@ -42,7 +42,7 @@ export default function Products() {
                 </section>
 
             </header>
-            <div className="md:lg:w-full w-[390px] md:lg:mb-0 mb-[20px]">
+            <div className="w-full md:lg:mb-0 mb-[20px]">
                 <Image src={"/frame143.png"} alt="" width={1440} height={209} />
             </div>
 

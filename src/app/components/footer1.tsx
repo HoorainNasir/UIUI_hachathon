@@ -31,7 +31,7 @@ export default function Footer1() {
 
                     <div className="block sm:hidden">
                         <h2 className="text-white text-[16px] leading-[19.68px] uppercase md:lg:font-normal font-light mb-4">Categories</h2>
-                        <ul className="md:lg:space-y-3 space-y-1">
+                        <ul className="md:lg:space-y-3 space-y-1 text-white">
                             <li>
                                 <Link href="" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Crockery</Link>
                             </li>
@@ -45,7 +45,7 @@ export default function Footer1() {
                                 <Link href="" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Plant pots</Link>
                             </li>
                             <li>
-                                <Link href="" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Chairs</Link>
+                                <Link href="/productListing" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Chairs</Link>
                             </li>
 
                         </ul>
@@ -76,7 +76,7 @@ export default function Footer1() {
 
                     <div className="hidden sm:block">
                         <h2 className="text-white text-[16px] leading-[19.68px] uppercase md:lg:font-normal font-light mb-4">Categories</h2>
-                        <ul className="md:lg:space-y-3 space-y-1">
+                        <ul className="md:lg:space-y-3 space-y-1 text-white">
                             <li>
                                 <Link href="" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Crockery</Link>
                             </li>
@@ -90,7 +90,7 @@ export default function Footer1() {
                                 <Link href="" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Plant pots</Link>
                             </li>
                             <li>
-                                <Link href="" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Chairs</Link>
+                                <Link href="/productListing" className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">Chairs</Link>
                             </li>
 
                         </ul>
@@ -123,8 +123,8 @@ export default function Footer1() {
                         </h1>
                         <div className="flex my-3 md:lg:my-6 w-full">
                             <input name="email" type="text" required
-                                className=" md:Lg:w-[350px] w-[200px] h-[56px] font-normal text-[16px] leading-[21.6px] text-gray-800 bg-[lightgray] focus:border-[#1E2772] px-4 py-3 outline-none" placeholder="your@email.com" />
-                            <button className="flex-1 font-light bg-white md:lg:px-[32px] py=[16px]  md:Lg:w-[118px] h-[56px] text-black text-sm hover:bg-black">
+                                className="w-[350px] h-[56px] font-normal text-[16px] leading-[21.6px] text-gray-800 bg-[lightgray] focus:border-[#1E2772] px-4 py-3 outline-none" placeholder="your@email.com" />
+                            <button className="flex-1 font-light bg-white md:lg:px-[32px] py=[16px]  md:Lg:w-[118px] h-[56px] text-black text-sm hover:bg-violet-300">
                                 Sign up
                             </button>
                         </div>
@@ -135,7 +135,7 @@ export default function Footer1() {
 
                 <div className="flex sm:justify-between flex-wrap gap-6">
 
-                    <p className='font-light text-sm'>© Copyright 2022 Avion LTD
+                    <p className='font-light text-white text-sm'>© Copyright 2022 Avion LTD
                     </p>
 
                     <div className="hidden sm:block">
