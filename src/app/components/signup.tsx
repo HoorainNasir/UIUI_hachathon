@@ -12,7 +12,7 @@ export default function Signup(){
                 <div className=" md:lg:mt-[80px] mt-[60px] md:lg:mx-[250px] mx-0 flex">
                 <input name="email" type="text" required 
                 className=" md:lg:w-[450px] w-[350px] h-[56px] font-normal text-[16px] leading-[21.6px] text-gray-800 bg-[lightgray] focus:border-[#1E2772] px-4 py-3 outline-none" placeholder="your@email.com" />
-                <button className="flex-1 font-light bg-[#2A254B] md:lg:px-[32px] py=[16px]  md:lg:w-[118px] h-[56px] text-white text-sm hover:bg-black">
+                <button className="flex-1 font-light bg-[#2A254B] md:lg:px-[32px] px-[24px] py=[16px]  md:lg:w-[118px] h-[56px] text-white text-sm hover:bg-black">
                     Sign up
                 </button>
                 </div>

@@ -20,7 +20,7 @@ export default function Main() {
             View Collection
           </button>
 
-          <h1 className="md:lg:mx-[60px] text-lg leading-[27px] md:lg:mt-[130px] mt-[60px] ml-[20px] md:lg:mr-0 mr-[0px]">
+          <h1 className="md:lg:mx-[60px] text-lg leading-[27px] md:lg:mt-[130px] mt-[60px] ml-[20px] md:lg:mr-0 mr-[10px]">
             A new era in eco friendly furniture with Avelon, the French luxury retail brand
             with nice fonts, tasteful colors and a beautiful way to display things digitally
             using modern web technologies.

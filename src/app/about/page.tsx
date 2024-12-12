@@ -43,17 +43,17 @@ export default function About() {
             </div>
 
             <div className="w-[90%] md:lg:w-full px-[20px] md:lg:px-[80px] py-[60px] grid md:lg:grid-cols-2 grid-cols-1 gap-2 md:lg:gap-6">
-                <div className="md:lg:w-[600px] w-[112%] md:lg:h-[450px] h-[300px] font-sans text-white bg-[#2A254B] px-[40px]">
+                <div className="md:lg:w-[600px] w-[112%] md:lg:h-[450px] h-[350px] font-sans text-white bg-[#2A254B] px-[40px]">
                     <h1 className="md:lg:font-normal font-light text-[32px] leading-[39.36px] mt-[40px]">
                         It started with a small idea
                     </h1>
-                    <p className="font-light text-[18px] leading-[24.3px] mt-[20px] md:lg:mr-0 mr-[80px]">
+                    <p className="font-light text-[18px] leading-[24.3px] mt-[20px] md:lg:mr-0 mr-[50px]">
                         A global brand with local beginnings, our story begain in a
                         small studio in South London in early 2014
                     </p>
 
                     <Link href={""}>
-                        <button className="text-white mt-[50px] md:lg:mt-[180px] bg-[#4b435a] w-[192px] h-[56px] px-[32px] py-[16px] text-sm">
+                        <button className="text-white mt-[20px] md:lg:mt-[180px] bg-[#4b435a] w-[192px] h-[56px] px-[32px] py-[16px] text-sm">
                             View collection</button></Link>
                 </div>
 

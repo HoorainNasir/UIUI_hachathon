@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function D_Nav() {
     return (
         <header className="w-full md:lg:h-[104px] h-[70px] pt-[8px] md:lg:pt-[20px]" >
-            <div className="flex content-center md:lg:gap-0 gap-[150px] px-[20px] md:lg:px-[25px]">
+            <div className="flex content-center md:lg:gap-0 gap-[10px] px-[20px] md:lg:px-[25px]">
 
                 <h1 className=" md:lg:flex-1  flex font-sans font-light text-2xl text-[#22202E]">
                     Avion

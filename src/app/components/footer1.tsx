@@ -98,7 +98,7 @@ export default function Footer1() {
 
                     <div>
                         <h2 className="text-white text-[16px] leading-[19.68px] uppercase md:lg:font-normal font-light mb-4">Our company</h2>
-                        <ul className="md:lg:space-y-3 space-y-1">
+                        <ul className="md:lg:space-y-3 space-y-1 text-white">
                             <li>
                                 <Link href={"./about"} className=" hover:text-[gray] md:lgLtext-[14px] text-[12px] leading-[18.9px] transition-all">About us</Link>
                             </li>
@@ -124,7 +124,7 @@ export default function Footer1() {
                         <div className="flex my-3 md:lg:my-6 w-full">
                             <input name="email" type="text" required
                                 className="w-[350px] h-[56px] font-normal text-[16px] leading-[21.6px] text-gray-800 bg-[lightgray] focus:border-[#1E2772] px-4 py-3 outline-none" placeholder="your@email.com" />
-                            <button className="flex-1 font-light bg-white md:lg:px-[32px] py=[16px]  md:Lg:w-[118px] h-[56px] text-black text-sm hover:bg-violet-300">
+                            <button className="flex-1 font-light bg-white md:lg:px-[32px] px-[24px] py=[16px]  md:Lg:w-[118px] h-[56px] text-black text-sm hover:bg-violet-300">
                                 Sign up
                             </button>
                         </div>
